@@ -1061,3 +1061,63 @@ textarea {
 .continue-shopping-btn:hover {
   background-color: #2e00ae;
 }
+
+/* Order Status Page */
+.order-status {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.order-status h2 {
+  font-size: 32px;
+  color: #571bfa;
+  margin-bottom: 15px;
+}
+
+.order-status p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.order-status form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.order-status input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.check-status-btn {
+  background-color: #571bfa;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.check-status-btn:hover {
+  background-color: #2e00ae;
+}
+
+.order-status-result {
+  text-align: left;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
